@@ -20,7 +20,7 @@
  * 		newest = Node(e)	 - create an new node with element e
  * 		newest.next = head	 - set next of new node to reference the old head		
  * 		head = newest		 - set head to reference the newest as new head
- * 		size++				 - increase the size of singly linked list by 1
+ * 		size++			 - increase the size of singly linked list by 1
  * 
  * ---------------------------------------------------------------------------------
  * INSERTING an element at tail of SINGLY LINKED LIST:
@@ -30,7 +30,7 @@
  * 		newest.next = null	 - set next of new node to reference the null object
  * 		tail.next = newest	 - set next of old tail to reference the newest
  * 		tail = newest		 - set tail to reference the newest as new tail 		
- * 		size++				 - increase the size of singly linked list by 1
+ * 		size++			 - increase the size of singly linked list by 1
  * 
  * ---------------------------------------------------------------------------------
  * REMOVING an element from SINGLY LINKED LIST:
@@ -39,7 +39,7 @@
  * 		if head == null
  * 			the list is empty.
  * 		head = head.next	 - set new head to point to the next of old head
- * 		size--				 - decrease size of singly linked list by 1
+ * 		size--			 - decrease size of singly linked list by 1
  * 
  * ---------------------------------------------------------------------------------
  * IMPLEMENTATION:
@@ -48,9 +48,9 @@
  *	isEmpty( ):		 Returns true if the list is empty, and false otherwise.
  *	first( ):		 Returns (but does not remove) the first element in the list.
  *	last( ):		 Returns (but does not remove) the last element in the list.
- *	addFirst(e):	 Adds a new element to the front of the list.
+ *	addFirst(e):	 	 Adds a new element to the front of the list.
  *	addLast(e):		 Adds a new element to the end of the list.
- *	removeFirst( ):	 Removes and returns the first element of the list.
+ *	removeFirst( ):	 	 Removes and returns the first element of the list.
  */
 package com.java.DSA.singlylinkedlist;
 
